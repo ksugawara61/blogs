@@ -4,7 +4,6 @@
     "vsls-contrib.gistfs",
     "GitHub.copilot",
     "GitHub.copilot-chat",
-    "denoland.vscode-deno",
-    "esbenp.prettier-vscode"
+    "denoland.vscode-deno"
   ]
 }
