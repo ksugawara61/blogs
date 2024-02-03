@@ -1,6 +1,18 @@
 {
-  "tasks": {
-    "serve": "deno run --allow-net src/index.tsx"
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "npm:preact",
+    "types": [
+      "https://unpkg.com/@types/react@18.2.47/index.d.ts",
+      "lume/types.ts"
+    ]
   },
-  "lock": true
+  "tasks": {
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
+    "build": "deno task lume",
+    "serve": "deno task lume -s"
+  },
+  "imports": {
+    "lume/": "https://deno.land/x/lume@v2.0.3/"
+  }
 }
