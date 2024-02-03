@@ -30,7 +30,9 @@ site.use(date());
 site.use(jsx());
 site.use(jsx_preact());
 site.use(lightningcss());
-site.use(postcss());
+site.use(postcss({
+  includes: "_includes",
+}));
 site.use(svgo());
 site.use(transform_images());
 
