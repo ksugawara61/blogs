@@ -16,7 +16,7 @@ import lang_bash from "npm:highlight.js/lib/languages/bash";
 const site = lume({
   src: "./src/pages",
   dest: "./public",
-  location: new URL("https://ksugawara61.github.io/blog/"),
+  location: new URL("https://ksugawara61.github.io/blogs/"),
 });
 
 site.use(code_highlight({
