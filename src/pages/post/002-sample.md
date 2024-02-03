@@ -1,5 +1,7 @@
 ---
-title: Hello, World
+title: こんにちは
+tags:
+  - post
 ---
 
 # こんにちは！

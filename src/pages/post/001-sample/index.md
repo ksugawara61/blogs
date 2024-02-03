@@ -1,5 +1,7 @@
 ---
-title: Hello, World
+title: ブログはじめてみました
+tags:
+  - post
 ---
 
 # ブログをはじめてみました
