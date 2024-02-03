@@ -8,7 +8,7 @@ export default ({ title, search }: Lume.Data, helpers: Lume.Helpers) => {
       <ul>
         {search.pages("post", "date=desc").map((post) => (
           <li>
-            <a href={post.page.src.path}>
+            <a href={helpers.url(post.page.src.path)}>
               {post.title}
             </a>
           </li>
