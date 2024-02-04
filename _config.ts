@@ -14,7 +14,9 @@ const site = lume({
   location: new URL("https://ksugawara61.github.io/blogs/"),
 });
 
-site.use(code_highlight()).use(date())
+site
+  .use(code_highlight())
+  .use(date())
   .use(jsx_preact())
   .use(lightningcss())
   .use(postcss())
