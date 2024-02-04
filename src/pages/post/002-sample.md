@@ -16,3 +16,13 @@ title: こんにちは
 ```ruby
 puts 'hello'
 ```
+
+```kotlin
+val hoge = 'fuga'
+```
+
+```swift
+class HogeController {
+  
+}
+```
